@@ -120,6 +120,9 @@ h2 ~ p {
 .nav-links a:active {
   color: #ed6e2f;
 }
+.header-nav a {
+  color: #fff;
+}
 .header-nav > li:first-child a {
   color: #ed6e2f;
 }
