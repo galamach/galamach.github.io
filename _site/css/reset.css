@@ -3,3 +3,7 @@
   background-color: #c7dbfc;
   height: 50vh;
 }
+.full-hero:hover,
+.full-hero:active {
+  background-color: #c7dbfc;
+}
