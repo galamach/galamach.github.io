@@ -3,6 +3,7 @@
     <head>
     <title>Jekyll Test Page: Don't Panic</title>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-sccale=1">
     <link rel="stylesheet" href="/css/reset.css">
     <link rel="stylesheet" href="/css/main.css">
   </head>
@@ -12,8 +13,18 @@
   <ul class="header-nav nav-links">
     <li><a href="/">Home</a></li>
 <li><a href="/gallery">Gallery</a></li>
-<li><a href="/blog">Blog</a></li>
-<li><a href=" /2018/04/04/title-of-post.html ">"Newest Post</a>"</li>
+<li class="dropdown">
+  <a class="drop-trigger" href="/blog">Blog</a>
+  <ul class="drop-menu">
+    <li>Recent Posts</li>
+    
+      <li><a href="/2018/04/04/title-of-post.html">Best opening lines no 1</a></li>
+    
+      <li><a href="/2018/04/03/title-of-post.html">Best opening lines no 2</a></li>
+    
+  </ul>
+</li>
+<li><a href=" /2018/04/04/title-of-post.html ">Newest Post</a></li>
 <li><a href="#">Nav 3</a></li>
 
   </ul>
@@ -35,8 +46,18 @@
     <ul class="footer-nav nav-links">
       <li><a href="/">Home</a></li>
 <li><a href="/gallery">Gallery</a></li>
-<li><a href="/blog">Blog</a></li>
-<li><a href=" /2018/04/04/title-of-post.html ">"Newest Post</a>"</li>
+<li class="dropdown">
+  <a class="drop-trigger" href="/blog">Blog</a>
+  <ul class="drop-menu">
+    <li>Recent Posts</li>
+    
+      <li><a href="/2018/04/04/title-of-post.html">Best opening lines no 1</a></li>
+    
+      <li><a href="/2018/04/03/title-of-post.html">Best opening lines no 2</a></li>
+    
+  </ul>
+</li>
+<li><a href=" /2018/04/04/title-of-post.html ">Newest Post</a></li>
 <li><a href="#">Nav 3</a></li>
 
     </ul>
