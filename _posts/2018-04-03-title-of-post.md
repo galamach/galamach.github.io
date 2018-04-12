@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Best opening lines no 2
+description: I love Beethoven too
 postHero: /images/s-l300.jpg
 author: Me, Myself, and I
 authorTwitter: http://twitter.com/mhartl
